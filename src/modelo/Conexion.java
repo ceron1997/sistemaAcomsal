@@ -20,7 +20,8 @@ public class Conexion {
     public Connection getConnection() {
         try {
             String myBD = "jdbc:mysql://localhost:3306/sistemaacomsal?serverTimezone=UTC";
-            con = DriverManager.getConnection(myBD, "root", "");
+            con = DriverManager.getConnection(myBD, "root", "root");
+//          JOptionPane.showMessageDialog(null, "Exito " + con );
             return con;
         } catch (SQLException e) {
             System.out.println(e.toString());

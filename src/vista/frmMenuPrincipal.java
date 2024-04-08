@@ -52,7 +52,7 @@ public class frmMenuPrincipal extends javax.swing.JFrame {
                 File backupFile = new File(String.valueOf(RealizarBackupMySQL.getSelectedFile().toString())
                         + "_" + date + ".sql");
                 FileWriter fw = new FileWriter(backupFile);
-                Process child = runtime.exec("mysqldump --routines  --password= --user=root "
+                Process child = runtime.exec("mysqldump --routines  --password=root --user=root "
                         + "sistemaacomsal");
                 InputStreamReader irs = new InputStreamReader(child.getInputStream());
                 BufferedReader br = new BufferedReader(irs);
