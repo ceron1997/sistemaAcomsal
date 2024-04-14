@@ -1,4 +1,4 @@
-Aplicación: App de pedidos <br>
+Aplicación: Sistema de facturacion e inventario <br>
 1-	Objetivos del software: <br>
 Crear un software funcional y robusto que demuestre las habilidades y conocimientos técnicos del desarrollador en el desarrollo de aplicaciones Java para la gestión de negocios.<br>
 2-	Análisis de mercado <br>
